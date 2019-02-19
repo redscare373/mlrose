@@ -7,8 +7,8 @@
 import numpy as np
 from .decay import GeomDecay
 
-
-def hill_climb(problem, max_iters=np.inf, restarts=0, init_state=None):
+# don't care for this one
+def hill_climb(problem, max_iters=np.inf, restarts=0, init_state=None, return_statistics=False):
     """Use standard hill climbing to find the optimum for a given
     optimization problem.
 
